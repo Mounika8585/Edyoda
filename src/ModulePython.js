@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import loop from './img/activeTopic.svg';
 import prewatch from './img/topic.svg';
 import quiz from './img/moduleQuiz.svg';
@@ -8,24 +7,11 @@ import references from './img/doc.svg';
 import cam from './img/videocam2.svg';
 
 import './ModulePython.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function ModulePython() {
   return (
     <div className="ModulePython">
-      <div id="header">
-      <p id="sitename">EDYODA</p>
-      </div>
-
-      <div id="header2">
-        <p id="coursehead">DS031221</p>
-
-        <p id="coursetitle">Data Scientist Program</p>
-
-        <p id="hitext">Hi Test Learner!</p>
-
-        <div id="profileimg"></div>
-      </div>
 
       <div id="leftbar">
         <Link to="/">

@@ -1,0 +1,141 @@
+#header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  
+  #sitename {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    width: fit-content;
+    background: #0000CF;
+    background: linear-gradient(to top left, #0000CF 0%, #00B3FF 86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  #arrow1{
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top: 95px;
+    left: 195px;
+    background-image: url(img/downarrow.png);
+    background-size: 100% 100%;
+    
+  }
+  
+  #arrow2{
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top: 98px;
+    left: 195px;
+    background-image: url(img/uparrow.png);
+    background-size: 100% 100%;
+    
+  }
+  
+  #header p{
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+  }
+  
+  #header2{
+    border: 1px solid transparent;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(28, 51, 85);
+  }
+  
+  #header3{
+    position: absolute;
+    width: 1920px;
+    height: 130px;
+    background-color: rgb(28, 51, 85);
+    z-index: 1;
+    visibility: hidden;
+  }
+  
+  #selprog{
+    color:white;
+    margin-left: 80px;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  
+  #programs{
+    display: flexbox;
+  }
+  
+  #prog1, #prog2, #prog3, #prog4{
+    display: inline-block;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  #prog1{
+    margin-left: 85px;
+  }
+  
+  #prog4{
+    background-color: white;
+    color:black;
+  }
+  
+  #dropbar{
+    cursor: pointer;
+    width: 140px;
+    margin-left: 79px;
+    margin-top: 19px;
+    border : 1px solid transparent;
+    height: 30px;
+  }
+  
+  #courseheadd{
+    color: white;
+    font-size: 23px;
+    user-select: none;
+    margin-top: 0px;
+  }
+  
+  #hitext{
+    position: absolute;
+    top: -5px;
+    left: 1550px;
+    font-size: 23px;
+  }
+  
+  #profileimg{
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    left: 1730px;
+    top:7px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: rgb(255, 208, 0);
+    background-image: url(img/user.png);
+    background-size: 100% 100%;
+  }
+  
+  #coursetitle{
+    color: white;
+    position: absolute;
+    top: 55px;
+    font-size: 30px;
+    margin-left: 300px;
+  }

@@ -1,28 +1,14 @@
-import logo from './logo.svg';
 import './ModuleQuiz.css';
 import loop from './img/topic.svg';
 import quiz from './img/activeModuleQuiz.svg';
 import assignment from './img/assignment.svg';
 import clock from './img/clock.svg';
 import calendar from './img/calendar.svg';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function ModuleQuiz() {
   return (
     <div className="ModuleQuiz">
-      <div id="header">
-      <p id="sitename">EDYODA</p>
-      </div>
-
-      <div id="header2">
-        <p id="coursehead">DS031221</p>
-
-        <p id="coursetitle">Data Scientist Program</p>
-
-        <p id="hitext">Hi Test Learner!</p>
-
-        <div id="profileimg"></div>
-      </div>
 
       <div id="leftbar">
         <Link to="/">
